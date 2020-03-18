@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+body {
+  background-color: #F2F5D8;
+}
+
+.navigation ul {
+  text-align: right;
+  list-style-type: none;
+}
+
+.navigation li {
+  font-weight: 100;
+  font-size: 17px;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+header li a { 
+  color: #000000;
+  text-decoration: none;
+}
+    
+header li a:hover{
+  color:red;
+}
+
+#page {
+  background-image: url(https://i.ibb.co/zGmBzxh/mask-pic.png);
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+ .title {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid white;
+  position: relative;
+  top: 100px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  color: white;
+  font-size: 200px;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  height:100px;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 150px;
+  background-color:#DAE863;
+}
+
+h2{
+  font-size: 40px;
+ 
+}
+
+p{
+  font-size: 25px;
+}
+
